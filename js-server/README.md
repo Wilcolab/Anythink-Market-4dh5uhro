@@ -10,7 +10,7 @@ This is a minimal Express server scaffolded for development with nodemon and Doc
    ```
 2. Start the server with hot reload:
    ```bash
-   yarn start
+   yarn dev
    ```
    The server will listen on [http://localhost:8001](http://localhost:8001).
 

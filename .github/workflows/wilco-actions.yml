@@ -41,6 +41,9 @@ jobs:
         with:
           node-version: "16"
 
+      - name: Wait for services to be ready
+        run: sleep 30
+
       - name: Wilco checks
         id: Wilco
         uses: trywilco/actions@main
